@@ -38,3 +38,13 @@ info => Using PostCSS preset with postcss@8.2.8
 ```
 
 ...but there seems to be an issue with `postcss-loader` in this instance.
+
+---
+
+If option 1 using Tailwind's `@tailwindcss/postcss7-compat` package works, why bother with option 2?
+
+Tailwind just released a [JIT compiler](https://blog.tailwindcss.com/just-in-time-the-next-generation-of-tailwind-css): `@tailwindcss/jit`
+
+Since this new compiler is also using PostCSS 8 (building upon Tailwind 2) [there isn't currently a PostCSS 7 compatibility package](https://github.com/tailwindlabs/tailwindcss-jit/issues/36) for it.
+
+Tailwind JIT ony got announced yesterday (Monday 15th March) so this may change soon, but in the interim I would like to see an alternative solution where Storybook uses PostCSS 8.
