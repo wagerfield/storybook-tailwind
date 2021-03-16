@@ -48,3 +48,5 @@ Tailwind just released a [JIT compiler](https://blog.tailwindcss.com/just-in-tim
 Since this new compiler is also using PostCSS 8 (building upon Tailwind 2) [there isn't currently a PostCSS 7 compatibility package](https://github.com/tailwindlabs/tailwindcss-jit/issues/36) for it.
 
 Tailwind JIT ony got announced yesterday (Monday 15th March) so this may change soon, but in the interim I would like to see an alternative solution where Storybook uses PostCSS 8.
+
+If we can get Tailwind 2 + PostCSS building with Storybook, then we should be able to swap out `tailwindcss` in `postcss.config.js` for `@tailwindcss/jit` as [documented here](https://github.com/tailwindlabs/tailwindcss-jit#getting-started).
