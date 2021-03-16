@@ -9,14 +9,14 @@ export default {
   }
 }
 
-const Template = (args) => <Button {...args} />
+const story = (args) => <Button {...args} />
 
-export const Default = Template.bind({})
+export const Default = story.bind(null)
 
-export const Small = Template.bind({})
+export const Small = story.bind(null)
 
 Small.args = { size: "sm" }
 
-export const Large = Template.bind({})
+export const Large = story.bind(null)
 
 Large.args = { size: "lg" }
