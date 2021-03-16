@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const sizes = {
   sm: "text-xs px-3 py-2",

@@ -1,4 +1,4 @@
-import { Button } from "../components/button/button"
+import { Button } from "../components/button"
 
 export const IndexPage = () => (
   <main className="p-4">
