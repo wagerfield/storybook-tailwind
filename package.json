@@ -12,14 +12,13 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@storybook/addon-essentials": "6.2.0-rc.0",
+    "@babel/core": "^7.14.3",
+    "@storybook/addon-essentials": "6.2.9",
     "@storybook/addon-postcss": "2.0.0",
-    "@storybook/react": "6.2.0-rc.0",
-    "@tailwindcss/jit": "0.1.1",
-    "autoprefixer": "10.2.5",
+    "@storybook/react": "6.2.9",
+    "autoprefixer": "10.2.6",
     "babel-loader": "^8.2.2",
-    "postcss": "8.2.8",
-    "tailwindcss": "2.0.3"
+    "postcss": "8.3.0",
+    "tailwindcss": "2.1.4"
   }
 }
